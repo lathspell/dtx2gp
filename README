@@ -1,0 +1,23 @@
+== Overview ==
+
+This program converts DTXMania .dtx files to GuitarPro .gp5 files.
+
+== Links ==
+
+* DTXMania: http://en.sourceforge.jp/projects/dtxmania/
+* DTX Specs: http://mainori-se.sakura.ne.jp/dtxmania/wiki.cgi?page=qa_dtx_spec_e
+* GuitarPro: http://www.guitar-pro.com/
+
+== Credits and Copyright ==
+
+This software was written in 2012 by Christian Hammers <ch@lathspell.de> and
+licensed under the LGPL v3 (see COPYING).
+
+The Java classes to read and write GP5 files were taken from TuxGuitar at
+http://sourceforge.net/projects/tuxguitar/ which was licensed under LGPL v2.1.
+
+== Changes ==
+
+v1.0, 2012-07-15, Christian Hammers <ch@lathspell.de>
+* Initial version released.
+
