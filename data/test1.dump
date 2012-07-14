@@ -1,0 +1,141 @@
+Name: Testsong1
+Album: Testalbum1
+Artist: Testartist1
+Comment: 
+
+Track #0:
+  Name: Drumkit
+  number: 1
+  offset: 0
+  isPercussion: true
+  isMute: false
+  countMeasures: 2
+
+  Measure #0:
+    Clef: 1
+    KeySig: 0
+    Start: 960
+    Length: 3840
+    Timing: 4/4
+    Tempo: 123 bpm
+    isTripletFeel: false
+    countBeats: 3
+
+    Beat #0:
+      Text: null
+      start: 960
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=2, time=960, value=4, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 2
+
+        Note #0:
+          String: 5
+          Value: 38
+          Velocity: 95
+          hasAnyEffect: false
+
+        Note #1:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=2, time=960, value=4, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 35
+          Velocity: 95
+          hasAnyEffect: false
+
+    Beat #1:
+      Text: null
+      start: 1920
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=2, time=960, value=4, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=2, time=960, value=4, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 35
+          Velocity: 95
+          hasAnyEffect: false
+
+    Beat #2:
+      Text: null
+      start: 2880
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=1, time=1920, value=2, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: false
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=1, time=1920, value=2, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: false
+        countNotes: 0
+
+  Measure #1:
+    Clef: 1
+    KeySig: 0
+    Start: 4800
+    Length: 3840
+    Timing: 4/4
+    Tempo: 123 bpm
+    isTripletFeel: false
+    countBeats: 0
+

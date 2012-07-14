@@ -1,0 +1,505 @@
+Name: test6 - a step more complicated
+Album: 
+Artist: unittest
+Comment: 
+
+Track #0:
+  Name: Drums
+  number: 1
+  offset: 0
+  isPercussion: true
+  isMute: false
+  countMeasures: 1
+
+  Measure #0:
+    Clef: 1
+    KeySig: 0
+    Start: 960
+    Length: 3840
+    Timing: 4/4
+    Tempo: 90 bpm
+    isTripletFeel: false
+    countBeats: 16
+
+    Beat #0:
+      Text: null
+      start: 0
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 2
+
+        Note #0:
+          String: 6
+          Value: 35
+          Velocity: 95
+          hasAnyEffect: false
+
+        Note #1:
+          String: 5
+          Value: 38
+          Velocity: 95
+          hasAnyEffect: false
+
+    Beat #1:
+      Text: null
+      start: 240
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #2:
+      Text: null
+      start: 480
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 35
+          Velocity: 95
+          hasAnyEffect: false
+
+    Beat #3:
+      Text: null
+      start: 720
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #4:
+      Text: null
+      start: 960
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=2, time=960, value=4, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: false
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: false
+        countNotes: 0
+
+    Beat #5:
+      Text: null
+      start: 1200
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #6:
+      Text: null
+      start: 1440
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 35
+          Velocity: 95
+          hasAnyEffect: false
+
+    Beat #7:
+      Text: null
+      start: 1680
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #8:
+      Text: null
+      start: 1920
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=1, time=1920, value=2, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 38
+          Velocity: 95
+          hasAnyEffect: false
+
+    Beat #9:
+      Text: null
+      start: 2160
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #10:
+      Text: null
+      start: 2400
+      isRest: false
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: false
+        isEmpty: false
+        countNotes: 1
+
+        Note #0:
+          String: 6
+          Value: 42
+          Velocity: 95
+          hasAnyEffect: false
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #11:
+      Text: null
+      start: 2640
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #12:
+      Text: null
+      start: 2880
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=2, time=960, value=4, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: false
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=2, time=960, value=4, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #13:
+      Text: null
+      start: 3120
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #14:
+      Text: null
+      start: 3360
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=3, time=480, value=8, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+    Beat #15:
+      Text: null
+      start: 3600
+      isRest: true
+      isText: false
+      isChord: false
+      countVoices: 2
+      Chord Name: null
+      Stroke Value: 0
+
+      Voice #0:
+        index: 0
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+
+      Voice #1:
+        index: 1
+        Direction: 0
+        Duration: Duration(index=4, time=240, value=16, division=Division(enters=1, times=1))
+        isRest: true
+        isEmpty: true
+        countNotes: 0
+

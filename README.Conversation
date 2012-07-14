@@ -1,0 +1,80 @@
+= Details of the conversation process =
+
+== Input ==
+
+; Bar 000
+;   Lane 0x11 with Sample 0x05 as 1/8th notes on 1,1&,2&,3,4,4&
+#00011: 0005000505000505
+;   Lane 0x12 with Sample 0x02 as 1/4th notes on 1, 2 and 4
+#00012: 02020002
+;   Lane 0x13 with Sample 0x02 as 1/2th notes on 1 and 3
+#00013: 0303
+
+== Processing ==
+
+* Max number of beats is 8 so fill up every lane with zero
+* Sample 00 as well as fill ups become empty notes
+
+#000:
+ 11: - 5, - 5, 5 -, 5 5
+ 12: 2 -, 2 -, - -, 2 -
+ 13: 3 -, - -, 3 -, - -
+
+* Sample number are irrelevant, for us they are just a bit map
+* Lanes can be mapped to midi instruments and "voices" (i.e. stems up or down)
+
+    Lane 11 = Midi 42 "HiHat" at voice 0
+    Lane 12 = Midi 38 "Snare" at voice 1
+    Lane 13 = Midi 36 "Bass"  at voice 1
+
+#000:
+  Beat:  0  1  2  3  4  5  6  7
+    _________________________________________
+    11:  - 42  - 42 42  - 42 42    -> voice 0
+    12: 38  - 38  -  -  - 38  -    -> voice 1
+    13: 36  -  -  - 36  -  -  -    -> voice 1
+
+* Rests that are at the same position as a note in that voice are void
+
+#000
+  Beat:        0   1    2    3    4    5    6    7
+  ________________________________________________
+  Voice 0:     -  42    -   42   42    -   42   42
+  Voice 1: 36,38   -   38    -   36    -   38    -
+
+// OPTIONAL:
+* Empty notes at the beginning are replaced by rests
+* Notes are expanded if an empty note follows and they are on the main beat
+  (i.e. 1/8th on count "1" would be expanded, 1/8th on count "1&" not)
+
+  Beat:        0      1     2       3       4    5       6       7
+  ________________________________________________________________
+  Voice 0:   r/8   42/8    r8    42/8    42/4    -    42/8    42/8
+  Voice 1: 36,38/4    -   8/4       -    36/4    -    38/4       -
+
+== Output ==
+
+Track 0
+    Measure 0 (4/4 1/8th 100bpm) - all 1/8th!
+        Beat 0: r       36,38
+        Beat 1: 42       r
+        Beat 2: r       38
+        Beat 3: 42       r
+        Beat 4: 42      36
+        Beat 5: r        r
+        Beat 6: 42      38
+        Beat 7: 42       r
+              voice0  voice1
+
+// OPTIONAL:
+Track 0
+    Measure 0 (4/4 1/8th 100bpm)
+        Beat 0:  r/8  36,38/4
+        Beat 1: 42/8      -
+        Beat 2:  r/8     38/4
+        Beat 3: 42/8     -
+        Beat 4: 42/4     36/4
+        Beat 5:  -        -
+        Beat 6: 42/8     38/4
+        Beat 7: 42/8      -
+              voice0   voice1
