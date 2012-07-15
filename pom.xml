@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project
+        xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+        xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>de.lathspell</groupId>
     <artifactId>dtx2gp</artifactId>
-    <version>1.0</version>
+    <version>1.0-SNAPSHOT</version>
 
     <scm>
-        <connection>scm:git://git.code.sf.net/p/dtx2gp/code/</connection>
-        <developerConnection>scm:git:ssh://lathspell@git.code.sf.net/p/dtx2gp/code/</developerConnection>
+        <connection>scm:git://git.code.sf.net/p/dtx2gp/code/master/</connection>
+        <developerConnection>scm:git:lathspell@git.code.sf.net:/p/dtx2gp/code/master/</developerConnection>
         <url>https://git.code.sf.net/p/dtx2gp/code/</url>
     </scm>
 
@@ -70,7 +72,7 @@
                 <groupId>org.jetbrains.kotlin</groupId>
                 <version>${kotlin.version}</version>
 
-                <configuration />
+                <configuration/>
                 <executions>
                     <execution>
                         <id>compile</id>
