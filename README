@@ -2,6 +2,16 @@
 
 This program converts DTXMania .dtx files to GuitarPro .gp5 files.
 
+== Usage ==
+
+Curently there is only a CLI frontend:
+
+  java -jar dtx2gp-1.0-jar-with-dependencies.jar  my.dtx  my.gp5
+
+== Build from Source ==
+
+The project is maven based so just run "mvn assembly:assembly".
+
 == Links ==
 
 * DTXMania: http://en.sourceforge.jp/projects/dtxmania/
