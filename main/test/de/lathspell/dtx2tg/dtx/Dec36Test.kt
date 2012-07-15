@@ -1,4 +1,4 @@
-package DTX
+package de.lathspell.dtx2gp.dtx
 
 import org.junit.Test
 import kotlin.test.assertEquals

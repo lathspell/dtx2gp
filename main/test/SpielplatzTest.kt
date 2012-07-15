@@ -1,6 +1,5 @@
-package DTX
+package de.lathspell.dtx2gp
 
-import de.lathspell.dtx2gp.DtxToTuxguitar
 import de.lathspell.dtx2gp.dtx.DTXFile
 import de.lathspell.dtx2gp.dtx.DTXReader
 import de.lathspell.dtx2gp.tg.TGHelper

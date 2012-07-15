@@ -1,4 +1,4 @@
-package DTX
+package de.lathspell.dtx2gp.dtx
 
 import de.lathspell.dtx2gp.tg.TGHelper
 import java.io.File
