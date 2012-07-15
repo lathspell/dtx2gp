@@ -17,6 +17,7 @@ import org.junit.Assert.assertFalse
 import org.junit.Assert.assertNull
 import org.junit.Assert.assertTrue
 import org.junit.Test
+import org.junit.Ignore
 
 class GP5ReadTest1Test {
 
@@ -69,6 +70,7 @@ class GP5ReadTest1Test {
         assertFalse(note0.getEffect()?.hasAnyEffect()!!)
     }
 
+    [Ignore("dumpCompactTGSong currently does not work due to a Kotlin compiler bug")]
     [Test]
     fun dumpCompactTest() {
         val song = TGHelper().readGP5Song("data/test1.gp5")

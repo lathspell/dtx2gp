@@ -11,6 +11,7 @@ import org.apache.log4j.Logger
 import org.apache.log4j.PatternLayout
 import org.herac.tuxguitar.song.models.TGSong
 import org.junit.Test
+import org.junit.Ignore
 
 class SpielplatzTest {
 
