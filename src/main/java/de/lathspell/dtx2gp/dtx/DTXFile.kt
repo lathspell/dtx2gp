@@ -2,9 +2,9 @@ package de.lathspell.dtx2gp.dtx
 
 /** Representation of a DTX file. */
 public class DTXFile() {
-    val header : DTXHeader = DTXHeader()
+    public val header : DTXHeader = DTXHeader()
 
-    val objects : DTXObjects = DTXObjects()
+    public val objects : DTXObjects = DTXObjects()
 
     public fun toString() : String {
         return header.toString()
