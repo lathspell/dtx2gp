@@ -8,8 +8,8 @@
     <version>1.0</version>
 
     <scm>
-        <connection>scm:git://git.code.sf.net/p/dtx2gp/code/master/</connection>
-        <developerConnection>scm:git:lathspell@git.code.sf.net:/p/dtx2gp/code/master/</developerConnection>
+        <connection>scm:git://git.code.sf.net/p/dtx2gp/code/</connection>
+        <developerConnection>scm:git:ssh://lathspell@git.code.sf.net/p/dtx2gp/code/</developerConnection>
         <url>https://git.code.sf.net/p/dtx2gp/code/</url>
     </scm>
 
