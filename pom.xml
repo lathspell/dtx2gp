@@ -11,7 +11,7 @@
 
     <scm>
         <connection>scm:git://git.code.sf.net/p/dtx2gp/code/master/</connection>
-        <developerConnection>scm:ssh://git.code.sf.net/p/dtx2gp/code/master/</developerConnection>
+        <developerConnection>scm:git:lathspell@git.code.sf.net:/p/dtx2gp/code/master/</developerConnection>
         <url>https://git.code.sf.net/p/dtx2gp/code/</url>
     </scm>
 
