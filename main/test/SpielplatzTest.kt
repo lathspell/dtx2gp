@@ -1,14 +1,17 @@
 package DTX
 
-import de.lathspell.tuxguitar.TGHelper
+import de.lathspell.dtx2gp.DtxToTuxguitar
+import de.lathspell.dtx2gp.dtx.DTXFile
+import de.lathspell.dtx2gp.dtx.DTXReader
+import de.lathspell.dtx2gp.tg.TGHelper
 import java.io.File
 import org.apache.commons.io.FileUtils
 import org.apache.log4j.ConsoleAppender
 import org.apache.log4j.Level
 import org.apache.log4j.Logger
 import org.apache.log4j.PatternLayout
-import org.junit.Test
 import org.herac.tuxguitar.song.models.TGSong
+import org.junit.Test
 
 class SpielplatzTest {
 

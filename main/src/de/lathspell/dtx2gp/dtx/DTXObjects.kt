@@ -1,11 +1,5 @@
-package DTX
+package de.lathspell.dtx2gp.dtx
 
-import java.util.Map
-import java.util.List
-import java.util.ArrayList
-import java.util.HashMap
-import java.util.SortedSet
-import java.util.SortedMap
 import java.util.TreeMap
 import org.apache.log4j.Logger
 

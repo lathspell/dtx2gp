@@ -1,6 +1,5 @@
-package DTX
+package de.lathspell.dtx2gp.tg
 
-import de.lathspell.tuxguitar.TGHelper
 import java.io.File
 import kotlin.test.assertFalse
 import org.apache.commons.io.FileUtils

@@ -1,4 +1,4 @@
-package DTX
+package de.lathspell.dtx2gp.dtx
 
 /** Representation of a DTX file. */
 public class DTXFile() {

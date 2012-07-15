@@ -1,4 +1,4 @@
-package DTX
+package de.lathspell.dtx2gp.dtx
 
 import java.util.ArrayList
 import java.util.List

@@ -1,6 +1,8 @@
 package de.lathspell.dtx2gp
 
-import de.lathspell.tuxguitar.TGHelper
+import de.lathspell.dtx2gp.dtx.DTXFile
+import de.lathspell.dtx2gp.dtx.DTXReader
+import de.lathspell.dtx2gp.tg.TGHelper
 import java.io.File
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue

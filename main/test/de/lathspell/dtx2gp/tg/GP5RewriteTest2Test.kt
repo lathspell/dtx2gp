@@ -1,6 +1,6 @@
 package DTX
 
-import de.lathspell.tuxguitar.TGHelper
+import de.lathspell.dtx2gp.tg.TGHelper
 import java.io.File
 import java.io.FileInputStream
 import java.io.FileOutputStream

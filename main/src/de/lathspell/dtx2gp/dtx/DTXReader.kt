@@ -1,8 +1,6 @@
-package DTX
+package de.lathspell.dtx2gp.dtx
 
 import org.apache.log4j.*
-import org.apache.log4j.BasicConfigurator
-import java.text.ParseException
 
 /**
 * Reads a .dtx (DTXMania drum track) file.

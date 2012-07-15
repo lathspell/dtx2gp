@@ -1,5 +1,6 @@
-package DTX
+package de.lathspell.dtx2gp
 
+import de.lathspell.dtx2gp.dtx.*
 import java.util.HashMap
 import java.util.Map
 import java.util.TreeMap

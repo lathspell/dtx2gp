@@ -1,4 +1,4 @@
-package de.lathspell.tuxguitar
+package de.lathspell.dtx2gp.tg
 
 import java.io.FileInputStream
 import java.io.FileOutputStream

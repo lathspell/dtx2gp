@@ -1,3 +1,5 @@
+package de.lathspell.dtx2gp.dtx
+
 import java.util.ArrayList
 
 /** FIXME: Should be an "object class" i.e. with "static methods". */

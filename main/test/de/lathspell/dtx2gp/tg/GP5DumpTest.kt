@@ -1,6 +1,6 @@
-package DTX
+package de.lathspell.dtx2gp.tg
 
-import de.lathspell.tuxguitar.TGHelper
+import de.lathspell.dtx2gp.tg.TGHelper
 import org.junit.Assert.assertTrue
 import org.junit.Test
 

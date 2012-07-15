@@ -1,8 +1,7 @@
-package DTX
+package de.lathspell.dtx2gp.dtx
 
-import java.util.Map
-import java.util.HashMap
 import java.util.LinkedHashMap
+import java.util.Map
 
 /** The header of a DTX file. */
 public class DTXHeader {

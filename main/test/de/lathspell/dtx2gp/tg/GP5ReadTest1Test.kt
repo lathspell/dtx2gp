@@ -1,6 +1,5 @@
-package DTX
+package de.lathspell.dtx2gp.tg
 
-import de.lathspell.tuxguitar.TGHelper
 import java.io.File
 import org.apache.commons.io.FileUtils
 import org.herac.tuxguitar.song.models.TGBeat
