@@ -17,6 +17,13 @@ or via CLI with:
 The project is maven based so just run "mvn assembly:assembly".
 It can then be tested with "javaws target/jnlp/launch.jnlp".
 
+== Deployment ==
+
+ mvn release:prepare
+ mvn release:perform
+ lftp lathspell@web.sf.net:/home/project-web/dtx2gp/htdocs/download/
+   mput target/checkout/target/jnlp/* 
+
 == Links ==
 
 * DTXMania: http://en.sourceforge.jp/projects/dtxmania/
@@ -33,7 +40,7 @@ http://sourceforge.net/projects/tuxguitar/ which was licensed under LGPL v2.1.
 
 == Changes ==
 
-v1.2, 2012-08-24, Christian Hammers <ch@lathspell.de>
+v1.3, 2012-08-24, Christian Hammers <ch@lathspell.de>
 * Added WebStart frontend.
 
 v1.0, 2012-07-15, Christian Hammers <ch@lathspell.de>

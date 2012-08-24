@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<jnlp spec="$jnlpspec" codebase="$project.Url" href="$outputFile">
+<jnlp spec="$jnlpspec" codebase="http://dtx2gp.sourceforge.net/download" href="$outputFile">
     <information>
         <title>$project.Name</title>
         <vendor>$project.Organization.Name</vendor>
