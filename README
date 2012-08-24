@@ -2,19 +2,20 @@
 
 This program converts DTXMania .dtx files to GuitarPro .gp5 files.
 
-== Usage ==
+== Starting ==
 
-=== CLI ===
+Via Java Webstart with:
+
+  javaws http://dtx2gp.sourceforge.net/download/launch.jnlp
+
+or via CLI with:
 
   java -jar dtx2gp-1.0-jar-with-dependencies.jar  my.dtx  my.gp5
-
-=== WebStart ===
-
-  javaws target/jnlp/launch.jnlp
 
 == Build from Source ==
 
 The project is maven based so just run "mvn assembly:assembly".
+It can then be tested with "javaws target/jnlp/launch.jnlp".
 
 == Links ==
 
