@@ -1,14 +1,16 @@
 package de.lathspell.dtx2gp.frontend
 
-import de.lathspell.dtx2gp.DtxToTuxguitar
-import de.lathspell.dtx2gp.dtx.DTXFile
-import de.lathspell.dtx2gp.dtx.DTXReader
-import de.lathspell.dtx2gp.tg.TGHelper
 import java.io.File
+
 import org.apache.log4j.ConsoleAppender
 import org.apache.log4j.Logger
 import org.apache.log4j.PatternLayout
 import org.herac.tuxguitar.song.models.TGSong
+
+import de.lathspell.dtx2gp.DtxToTuxguitar
+import de.lathspell.dtx2gp.dtx.DTXFile
+import de.lathspell.dtx2gp.dtx.DTXReader
+import de.lathspell.dtx2gp.tg.TGHelper
 
 /** CLI Frontend */
 fun main(args : Array<String>) {
@@ -32,5 +34,5 @@ fun main(args : Array<String>) {
     log.info("Writing $fnameOut")
     TGHelper().writeGP5Song(fnameOut, tgsong)
 
-    log.info("Finished.");
+    log.info("Finished.")
 }

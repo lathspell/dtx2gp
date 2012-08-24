@@ -21,6 +21,7 @@ import org.herac.tuxguitar.song.models.TGNote
 import org.herac.tuxguitar.song.models.TGSong
 import org.herac.tuxguitar.song.models.TGTrack
 import org.herac.tuxguitar.song.models.TGVoice
+import java.io.OutputStream
 
 class TGHelper {
 
@@ -38,10 +39,14 @@ class TGHelper {
 
     public fun writeGP5Song(fname: String, song: TGSong) {
         val fos: FileOutputStream = FileOutputStream(fname)
+        writeGP5Song(fos, song)
+    }
+
+    public fun writeGP5Song(os: OutputStream, song: TGSong) {
         val gp5factory: TGFactory = TGFactory()
         val gp5settings: GTPSettings = GTPSettings()
         val gp5os: GP5OutputStream = GP5OutputStream(gp5settings)
-        gp5os.init(gp5factory, fos);
+        gp5os.init(gp5factory, os);
         gp5os.writeSong(song)
     }
 

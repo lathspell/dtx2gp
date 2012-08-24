@@ -4,9 +4,13 @@ This program converts DTXMania .dtx files to GuitarPro .gp5 files.
 
 == Usage ==
 
-Curently there is only a CLI frontend:
+=== CLI ===
 
   java -jar dtx2gp-1.0-jar-with-dependencies.jar  my.dtx  my.gp5
+
+=== WebStart ===
+
+  javaws target/jnlp/launch.jnlp
 
 == Build from Source ==
 
@@ -27,6 +31,9 @@ The Java classes to read and write GP5 files were taken from TuxGuitar at
 http://sourceforge.net/projects/tuxguitar/ which was licensed under LGPL v2.1.
 
 == Changes ==
+
+v1.1, 2012-08-24, Christian Hammers <ch@lathspell.de>
+* Added WebStart frontend.
 
 v1.0, 2012-07-15, Christian Hammers <ch@lathspell.de>
 * Initial version released.

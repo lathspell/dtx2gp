@@ -13,6 +13,13 @@
         <url>https://git.code.sf.net/p/dtx2gp/code/</url>
     </scm>
 
+    <name>dtx2gp</name>
+    <description>DTXMania to GuitarPro5 converter</description>
+    <url></url>
+    <organization>
+        <name>Christian Hammers</name>
+    </organization>
+
     <properties>
         <kotlin.version>0.1.2580</kotlin.version>
         <junit.version>4.10</junit.version>
@@ -52,6 +59,27 @@
             <version>2.6</version>
             <type>jar</type>
         </dependency>
+
+        <dependency>
+            <groupId>javax.jnlp</groupId>
+            <artifactId>jnlp</artifactId>
+            <version>1.7</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <!-- LGPL, http://java.net/projects/beansbinding/sources/svn/content/trunk/beansbinding/license.txt?rev=631 -->
+            <groupId>org.jdesktop</groupId>
+            <artifactId>beansbinding</artifactId>
+            <version>1.2.1</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <!-- Apache Software License, http://commons.apache.org/io/license.html -->
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.4</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -90,6 +118,29 @@
             </plugin>
 
             <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>webstart-maven-plugin</artifactId>
+                <version>1.0-beta-3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>jnlp-inline</goal> <!-- use jnlp, jnlp-inline or jnlp-single as appropriate -->
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <jnlp>
+                        <mainClass>de.lathspell.dtx2gp.frontend.WebStartApp</mainClass>
+                        <allPermissions>false</allPermissions>
+                        <offlineAllowed>true</offlineAllowed>
+                    </jnlp>
+                    <pack200>false</pack200>
+                    <verbose>true</verbose>
+                </configuration>
+            </plugin>
+
+            <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <configuration>
                     <descriptorRefs>
@@ -113,6 +164,14 @@
             </plugin>
 
         </plugins>
+
+        <resources>
+            <resource>
+                <directory>src/main/resources/</directory>
+                <filtering>true</filtering>
+            </resource>
+        </resources>
+
     </build>
 
     <repositories>
