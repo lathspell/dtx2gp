@@ -131,7 +131,7 @@
                 </executions>
                 <configuration>
                     <jnlp>
-                        <mainClass>de.lathspell.dtx2gp.frontend.WebStartApp</mainClass>
+                        <mainClass>de.lathspell.dtx2gp.frontend.Gui</mainClass>
                         <allPermissions>false</allPermissions>
                         <offlineAllowed>true</offlineAllowed>
                     </jnlp>
