@@ -149,7 +149,10 @@ class DtxToTuxguitar {
                 if (curLen == 1) continue
 
                 // We only promote a note to e.g. a 1/2 if it is on beat 0 or 4 or to a 1/1 if it's on beat 0.
-                val newTGDuration: TGDuration = durations.get(curLen / 2)!!
+                val newTGDuration: TGDuration? = durations.get(curLen / 2)
+                if (newTGDuration == null) {
+                    throw Exception("Measure $measure, voice $voice, beat=$beat has invalid duration $curLen!");
+                }
                 if ((beat % (tgMeasure.countBeats() / newTGDuration.getValue())) != 0) {
                     log.debug("Promoting here would not be beautiful.")
                     continue
