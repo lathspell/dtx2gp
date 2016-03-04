@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0+" codebase="http://dtx2gp.sourceforge.net/download" href="launch.jnlp">
+    <information>
+        <title>dtx2gp</title>
+        <vendor>Christian Hammers</vendor>
+        <homepage href="https://sourceforge.net/projects/dtx2gp/"/>
+        <description>DTXMania to GuitarPro5 converter</description>
+        <offline-allowed/>
+    </information>
+    <resources>
+        <j2se version="1.5+"/>
+            
+    <jar href="dtx2gp-1.4.jar" main="true"/>
+    <jar href="kotlin-stdlib-0.1.2580.jar"/>
+    <jar href="kotlin-runtime-0.1.2580.jar"/>
+    <jar href="log4j-1.2.14.jar"/>
+    <jar href="commons-io-1.3.2.jar"/>
+    <jar href="commons-lang-2.6.jar"/>
+    <jar href="commons-io-2.4.jar"/>
+
+    </resources>
+    <application-desc main-class="de.lathspell.dtx2gp.frontend.Gui"/>
+</jnlp>
