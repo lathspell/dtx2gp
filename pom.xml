@@ -21,7 +21,7 @@
     </organization>
 
     <properties>
-        <kotlin.version>0.1.2580</kotlin.version>
+        <kotlin.version>1.6.0</kotlin.version>
         <junit.version>4.10</junit.version>
 
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
